@@ -1,0 +1,41 @@
+{
+  "name": "es2015modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build:round1": "webpack --config webpack.round1.js",
+    "build:round2": "webpack --config webpack.round2.js",
+    "build:round3": "webpack --config webpack.round3.js",
+    "build:round4": "webpack --config webpack.round4.js",
+    "start:server": "node ./server/index"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.31",
+    "@babel/preset-env": "^7.0.0-beta.31",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^8.0.0-beta.0",
+    "babel-preset-env": "^1.5.2",
+    "html-webpack-plugin": "^2.28.0",
+    "uglifyjs-webpack-plugin": "^1.0.1",
+    "webpack-merge": "^4.1.1"
+  },
+  "dependencies": {
+    "archy": "^1.0.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "chalk": "^2.3.0",
+    "dependency-tree": "^5.11.1",
+    "enhanced-resolve": "^3.4.1",
+    "lodash": "^4.17.4",
+    "mime": "^2.0.3",
+    "webpack": "^3.8.1"
+  }
+}
